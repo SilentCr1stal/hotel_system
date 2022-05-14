@@ -1,0 +1,254 @@
+{
+  "hotels": [
+    {
+      "pricePercentile": {
+        "3": 7200,
+        "10": 7200,
+        "35": 7200,
+        "50": 7200,
+        "75": 7200,
+        "99": 7200
+      },
+      "hotelId": 333578,
+      "priceAvg": 7200,
+      "locationId": 12153,
+      "hotelName": "Moscow Marriott Grand Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 5,
+      "priceFrom": 7200
+    },
+    {
+      "pricePercentile": {
+        "3": 7000,
+        "10": 7000,
+        "35": 7000,
+        "50": 7000,
+        "75": 7000,
+        "99": 7000
+      },
+      "hotelId": 333643,
+      "priceAvg": 7000,
+      "locationId": 12153,
+      "hotelName": "Golden Ring Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 5,
+      "priceFrom": 7000
+    },
+    {
+      "pricePercentile": {
+        "3": 7200,
+        "10": 7200,
+        "35": 7200,
+        "50": 7200,
+        "75": 7200,
+        "99": 7200
+      },
+      "hotelId": 333548,
+      "priceAvg": 7200,
+      "locationId": 12153,
+      "hotelName": "Crowne Plaza Moscow World Trade Centre",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 5,
+      "priceFrom": 7200
+    },
+    {
+      "pricePercentile": {
+        "3": 5000,
+        "10": 5000,
+        "35": 5000,
+        "50": 5000,
+        "75": 5000,
+        "99": 5000
+      },
+      "hotelId": 480240,
+      "priceAvg": 5000,
+      "locationId": 12153,
+      "hotelName": "AZIMUT Hotel Smolenskaya Moscow",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 4,
+      "priceFrom": 5000
+    },
+    {
+      "pricePercentile": {
+        "3": 3381,
+        "10": 3381,
+        "35": 3381,
+        "50": 3381,
+        "75": 3381,
+        "99": 3381
+      },
+      "hotelId": 333570,
+      "priceAvg": 3381,
+      "locationId": 1491124,
+      "hotelName": "Vega Izmailovo Hotel & Convention Center",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 4,
+      "priceFrom": 3381
+    },
+    {
+      "pricePercentile": {
+        "3": 3470,
+        "10": 3470,
+        "35": 3470,
+        "50": 3470,
+        "75": 3470,
+        "99": 3470
+      },
+      "hotelId": 276236,
+      "priceAvg": 3470,
+      "locationId": 1491124,
+      "hotelName": "Izmailovo Alpha Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 4,
+      "priceFrom": 3470
+    },
+    {
+      "pricePercentile": {
+        "3": 2900,
+        "10": 2900,
+        "35": 2900,
+        "50": 2900,
+        "75": 2900,
+        "99": 2900
+      },
+      "hotelId": 276260,
+      "priceAvg": 2900,
+      "locationId": 1416544,
+      "hotelName": "SkyPoint Sheremetyevo Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 3,
+      "priceFrom": 2900
+    },
+    {
+      "pricePercentile": {
+        "3": 3500,
+        "10": 3500,
+        "35": 3500,
+        "50": 3500,
+        "75": 3500,
+        "99": 3500
+      },
+      "hotelId": 1863310081,
+      "priceAvg": 3500,
+      "locationId": 1416544,
+      "hotelName": "Holiday Inn Express Moscow - Sheremetyevo Airport, an IHG Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 3,
+      "priceFrom": 3500
+    },
+    {
+      "pricePercentile": {
+        "3": 2811,
+        "10": 2811,
+        "35": 2811,
+        "50": 2811,
+        "75": 2811,
+        "99": 2811
+      },
+      "hotelId": 1862919982,
+      "priceAvg": 2811,
+      "locationId": 12153,
+      "hotelName": "ibis budget Moscow Panfilovskaya",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 2,
+      "priceFrom": 2811
+    },
+    {
+      "pricePercentile": {
+        "3": 1750,
+        "10": 1750,
+        "35": 1750,
+        "50": 1750,
+        "75": 1750,
+        "99": 1750
+      },
+      "hotelId": 27926062,
+      "priceAvg": 1750,
+      "locationId": 12153,
+      "hotelName": "Aristocrat Mini Hotel",
+      "location": {
+        "country": "Russia",
+        "geo": {
+          "lat": 55.752041,
+          "lon": 37.617508
+        },
+        "name": "Moscow",
+        "state": null
+      },
+      "stars": 2,
+      "priceFrom": 1750
+    }
+  ]
+}
