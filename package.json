@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mock": "json-server --config json-server.json db.json"
+    "mock": "json-server --config json-server.json db.json",
+    "dev:mock": "npm run mock & npm run dev",
+    "serve": "concurrently \"npm run mock\" \"npm run dev\""
   },
   "dependencies": {
     "next": "12.1.6",
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "babel-eslint": "^10.1.0",
+    "concurrently": "^7.2.0",
     "eslint": "8.14.0",
     "eslint-config-next": "^12.1.6",
     "normalize.css": "^8.0.1",

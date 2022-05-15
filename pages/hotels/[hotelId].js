@@ -8,6 +8,9 @@ export default function Hotel() {
   return (<MainLayout>
     <div>
       <h1>This is a hotel page №{router.query.hotelId}</h1>
+      <div>
+        <h1></h1>
+      </div>
       <button onClick={() => Router.push('/')}>Back to home</button>
     </div>
   </MainLayout>)

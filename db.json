@@ -15,7 +15,7 @@
       "hotelName": "Moscow Marriott Grand Hotel",
       "location": {
         "country": "Russia",
-        "geo": {
+        "geo": {  
           "lat": 55.752041,
           "lon": 37.617508
         },
