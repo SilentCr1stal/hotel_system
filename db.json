@@ -1,254 +1,104 @@
 {
   "hotels": [
     {
-      "pricePercentile": {
-        "3": 7200,
-        "10": 7200,
-        "35": 7200,
-        "50": 7200,
-        "75": 7200,
-        "99": 7200
-      },
-      "hotelId": 333578,
-      "priceAvg": 7200,
-      "locationId": 12153,
-      "hotelName": "Moscow Marriott Grand Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {  
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 5,
-      "priceFrom": 7200
-    },
-    {
-      "pricePercentile": {
-        "3": 7000,
-        "10": 7000,
-        "35": 7000,
-        "50": 7000,
-        "75": 7000,
-        "99": 7000
-      },
-      "hotelId": 333643,
-      "priceAvg": 7000,
-      "locationId": 12153,
-      "hotelName": "Golden Ring Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 5,
-      "priceFrom": 7000
-    },
-    {
-      "pricePercentile": {
-        "3": 7200,
-        "10": 7200,
-        "35": 7200,
-        "50": 7200,
-        "75": 7200,
-        "99": 7200
-      },
-      "hotelId": 333548,
-      "priceAvg": 7200,
-      "locationId": 12153,
-      "hotelName": "Crowne Plaza Moscow World Trade Centre",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 5,
-      "priceFrom": 7200
-    },
-    {
-      "pricePercentile": {
-        "3": 5000,
-        "10": 5000,
-        "35": 5000,
-        "50": 5000,
-        "75": 5000,
-        "99": 5000
-      },
-      "hotelId": 480240,
-      "priceAvg": 5000,
-      "locationId": 12153,
-      "hotelName": "AZIMUT Hotel Smolenskaya Moscow",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 4,
-      "priceFrom": 5000
-    },
-    {
-      "pricePercentile": {
-        "3": 3381,
-        "10": 3381,
-        "35": 3381,
-        "50": 3381,
-        "75": 3381,
-        "99": 3381
-      },
-      "hotelId": 333570,
-      "priceAvg": 3381,
-      "locationId": 1491124,
-      "hotelName": "Vega Izmailovo Hotel & Convention Center",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 4,
-      "priceFrom": 3381
-    },
-    {
-      "pricePercentile": {
-        "3": 3470,
-        "10": 3470,
-        "35": 3470,
-        "50": 3470,
-        "75": 3470,
-        "99": 3470
-      },
-      "hotelId": 276236,
-      "priceAvg": 3470,
-      "locationId": 1491124,
-      "hotelName": "Izmailovo Alpha Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 4,
-      "priceFrom": 3470
-    },
-    {
-      "pricePercentile": {
-        "3": 2900,
-        "10": 2900,
-        "35": 2900,
-        "50": 2900,
-        "75": 2900,
-        "99": 2900
-      },
-      "hotelId": 276260,
-      "priceAvg": 2900,
-      "locationId": 1416544,
-      "hotelName": "SkyPoint Sheremetyevo Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
+      "label": "AZIMUT Отель Олимпик Москва",
+      "id": "333526",
+      "rating": 8.53,
+      "locationName": "Москва, Россия",
+      "fullName": "AZIMUT Отель Олимпик Москва, Москва, Россия",
       "stars": 3,
-      "priceFrom": 2900
+      "priceFrom": 1750,
+      "has_wifi": false
     },
     {
-      "pricePercentile": {
-        "3": 3500,
-        "10": 3500,
-        "35": 3500,
-        "50": 3500,
-        "75": 3500,
-        "99": 3500
-      },
-      "hotelId": 1863310081,
-      "priceAvg": 3500,
-      "locationId": 1416544,
-      "hotelName": "Holiday Inn Express Moscow - Sheremetyevo Airport, an IHG Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
+      "label": "Отель Марриотт Москва Гранд",
+      "id": "333578",
+      "rating": 7.47,
+      "locationName": "Москва, Россия",
+      "fullName": "Отель Марриотт Москва Гранд, Москва, Россия",
       "stars": 3,
-      "priceFrom": 3500
+      "priceFrom": 2811,
+      "has_wifi": false
     },
     {
-      "pricePercentile": {
-        "3": 2811,
-        "10": 2811,
-        "35": 2811,
-        "50": 2811,
-        "75": 2811,
-        "99": 2811
-      },
-      "hotelId": 1862919982,
-      "priceAvg": 2811,
-      "locationId": 12153,
-      "hotelName": "ibis budget Moscow Panfilovskaya",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 2,
-      "priceFrom": 2811
+      "label": "Отель Марриотт Москва Тверская",
+      "id": "333600",
+      "rating": 5.26,
+      "locationName": "Москва, Россия",
+      "fullName": "Отель Марриотт Москва Тверская, Москва, Россия",
+      "stars": 3,
+      "priceFrom": 3500,
+      "has_wifi":true
     },
     {
-      "pricePercentile": {
-        "3": 1750,
-        "10": 1750,
-        "35": 1750,
-        "50": 1750,
-        "75": 1750,
-        "99": 1750
-      },
-      "hotelId": 27926062,
-      "priceAvg": 1750,
-      "locationId": 12153,
-      "hotelName": "Aristocrat Mini Hotel",
-      "location": {
-        "country": "Russia",
-        "geo": {
-          "lat": 55.752041,
-          "lon": 37.617508
-        },
-        "name": "Moscow",
-        "state": null
-      },
-      "stars": 2,
-      "priceFrom": 1750
+      "label": "Отель Москва",
+      "id": "714387",
+      "rating": 4.91,
+      "locationName": "Санкт-Петербург, Россия",
+      "fullName": "Отель Москва, Санкт-Петербург, Россия",
+      "stars": 3,
+      "priceFrom": 2900,
+      "has_wifi":true
+    },
+    {
+      "label": "Марриотт Москва Новый Арбат",
+      "id": "29844226",
+      "rating": 4.48,
+      "locationName": "Москва, Россия",
+      "fullName": "Марриотт Москва Новый Арбат, Москва, Россия",
+      "stars": 4,
+      "priceFrom": 3470,
+      "has_wifi":true
+    },
+    {
+      "label": "Москоу Холидэй Отель",
+      "id": "276243",
+      "rating": 4.23,
+      "locationName": "Москва, Россия",
+      "fullName": "Москоу Холидэй Отель, Москва, Россия",
+      "stars": 4,
+      "priceFrom": 3381,
+      "has_wifi":true
+    },
+    {
+      "label": "Отель Марриотт Москва Ройал Аврора",
+      "id": "333589",
+      "rating": 4.23,
+      "locationName": "Москва, Россия",
+      "fullName": "Отель Марриотт Москва Ройал Аврора, Москва, Россия",
+      "stars": 4,
+      "priceFrom": 5000,
+      "has_wifi":true
+    },
+    {
+      "label": "Дом Москвы",
+      "id": "1899378835",
+      "rating": 4.08,
+      "locationName": "Сухум, Абхазия",
+      "fullName": "Дом Москвы, Сухум, Абхазия",
+      "stars": 5,
+      "priceFrom": 7200,
+      "has_wifi":true
+    },
+    {
+      "label": "Апартаменты Moscow Suites Apartments Arbat",
+      "id": "333581",
+      "rating": 3.30,
+      "locationName": "Москва, Россия",
+      "fullName": "Апартаменты Moscow Suites Apartments Arbat, Москва, Россия",
+      "stars": 5,
+      "priceFrom": 7000,
+      "has_wifi":true
+    },
+    {
+      "label": "Отель Москва",
+      "id": "716386",
+      "rating": 3.38,
+      "locationName": "Геленджик, Россия",
+      "fullName": "Отель Москва, Геленджик, Россия",
+      "stars": 5,
+      "priceFrom": 7200,
+      "has_wifi":true
     }
   ]
 }

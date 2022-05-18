@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { MainLayout } from '../../components/MainLayout';
-import { useState, useEffect } from 'react';
+import { MainLayout } from '../../components/Main/MainLayout';
 
 export default function Hotels({ hotels }) {
   // const [hotels, setHotels] = useState([])
@@ -17,24 +16,21 @@ export default function Hotels({ hotels }) {
 
   return <MainLayout title='Все гостиницы России с ценами, бронированием'>
     <h1>Hotels page</h1>
-    <Link href={'/hotels/1'}><a>Hotel page</a></Link>
     <div>
       <ul>
         {hotels.map(hotel => {
-          return <li key={hotel.hotelId}><Link href={`/hotels/[hotelId]`} as={`/hotels/${hotel.hotelId}`}><a>{hotel.hotelName}</a></Link></li>
+          return <li key={hotel.id}><Link href={`/hotels/[id]`} as={`/hotels/${hotel.id}`}><a>{hotel.fullName}</a></Link></li>
         })}
       </ul>
     </div>
   </MainLayout>
 }
 
-export async function getStaticProps() {
+Hotels.getInitialProps = async () => {
   const response = await fetch('http://localhost:3304/hotels')
   const hotels = await response.json()
 
   return {
-    props: {
-      hotels
-    }
+    hotels
   }
 }
