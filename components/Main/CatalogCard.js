@@ -14,8 +14,16 @@ export default function CatalogCard({
   priceFrom,
   rating,
 }) {
-  const images = [first, second, third, fourth, fifth, sixth]
-  
+  const images = [first, second, third, fourth, fifth, sixth];
+
+  const setStars = () => {
+    let content = []
+    for (let i = 1; i <= stars; i++) {
+      content.push(<i key={i} className="fa-solid fa-star"></i>)
+    }
+    return content
+  }
+
   return (
     <>
       <div className="card card-card_discount card-card_border">
@@ -25,11 +33,7 @@ export default function CatalogCard({
           </div>
           <div className="card-info">
             <span className="card-stars">
-              {(() => {
-                for (let i = 0; i < stars; i++) {
-                  <i className="fa-solid fa-star"></i>
-                }
-              })()}
+              {setStars()}
             </span>
             <div className="card-reviews">Хороший отель</div>
             <div className="card-location-wrap">
@@ -73,12 +77,8 @@ export default function CatalogCard({
             <form className="card-form form_mini" action="" method="get">
               <div className="card-form-field-wrap">
                 <label className="card-form-field-label">Прибытие</label>
-                <div
-                  className="card-form-field card-form-field_date"
-                >
-                  <div
-                    className="hlf-input hlf-input--calendar"
-                  >
+                <div className="card-form-field card-form-field_date">
+                  <div className="hlf-input hlf-input--calendar">
                     <input
                       type="text"
                       placeholder="Прибытие"
@@ -92,20 +92,14 @@ export default function CatalogCard({
                     />
 
                     <div className="hint"></div>
-                    <div className="pseudo-placeholder">
-                      Прибытие
-                    </div>
+                    <div className="pseudo-placeholder">Прибытие</div>
                   </div>
                 </div>
               </div>
               <div className="card-form-field-wrap">
                 <label className="card-form-field-label">Выезд</label>
-                <div
-                  className="card-form-field card-form-field_date"
-                >
-                  <div
-                    className="hlf-input hlf-input--calendar"
-                  >
+                <div className="card-form-field card-form-field_date">
+                  <div className="hlf-input hlf-input--calendar">
                     <input
                       type="text"
                       placeholder="Выезд"
@@ -126,12 +120,8 @@ export default function CatalogCard({
                 </div>
               </div>
               <div className="card-form-field-wrap">
-                <div
-                  className="card-form-field card-form-field_submit"
-                >
-                  <button tabIndex="94">
-                    Узнать цены
-                  </button>
+                <div className="card-form-field card-form-field_submit">
+                  <button tabIndex="94">Узнать цены</button>
                 </div>
               </div>
             </form>

@@ -30,7 +30,6 @@ export const getServerSideProps = async () => {
     await mongoose.connect(process.env.MONGO_URI)
     console.log('Connected');
     const hotels = await Hotel.find({}).sort({"rating": -1}).limit(6).exec();
-    // console.log(hotels);
     return {
       props: {
         hotels: JSON.parse(JSON.stringify(hotels))
