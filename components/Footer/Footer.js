@@ -262,7 +262,7 @@ export default function Footer() {
                   <div className="app-list-item">
                     <a
                       className="app-btn app-btn--appstore"
-                      href="https://app.appsflyer.com/id762156897?pid=website_footer&amp;c=direct&amp;af_sub1=direct"
+                      href="#"
                       data-role="set-app-marker"
                       rel="nofollow"
                       target="_blank"
@@ -277,7 +277,7 @@ export default function Footer() {
                   <div className="app-list-item">
                     <a
                       className="app-btn app-btn--gplay"
-                      href="http://app.appsflyer.com/com.hotellook?pid=website_footer&amp;c=direct&amp;af_sub1=direct"
+                      href="#"
                       data-role="set-app-marker"
                       target="_blank"
                       data-goal-event="click"
@@ -291,7 +291,7 @@ export default function Footer() {
                   <div className="app-list-item">
                     <a
                       className="app-btn app-btn--mplace"
-                      href="https://www.microsoft.com/ru-ru/store/apps/hotellook-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%BE%D1%82%D0%B5%D0%BB%D0%B5%D0%B9/9nblggh5pcd4"
+                      href="#"
                       rel="nofollow"
                       target="_blank"
                       data-goal-event="click"

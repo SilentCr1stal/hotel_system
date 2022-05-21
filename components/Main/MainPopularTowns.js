@@ -1,4 +1,5 @@
 import Image from "next/image";
+import image from '../../public/images/hotels/500x380/500x380Adler.png'
 
 export default function MainPopularTowns() {
   return (
@@ -46,14 +47,10 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Анапе"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12099.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12099.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12099.auto 2x
-                              "
+                              src={image}
                               alt="Анапа"
                               title="Анапа"
                             />
@@ -76,16 +73,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Казани"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12127.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12127.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12127.auto 2x
-                              "
-                              alt="Казань"
-                              title="Казань"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Казань
@@ -106,22 +99,16 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Геленджике"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12118.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12118.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12118.auto 2x
-                              "
-                              alt="Геленджик"
-                              title="Геленджик"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Геленджик
-                              <span className="card-name-subText">
-
-                              </span>
+                              <span className="card-name-subText"></span>
                             </span>
                           </a>
                         </div>
@@ -136,16 +123,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Калининграде"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12125.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12125.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12125.auto 2x
-                              "
-                              alt="Калининград"
-                              title="Калининград"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Калининград
@@ -166,16 +149,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Москве"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12153.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12153.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12153.auto 2x
-                              "
-                              alt="Москва"
-                              title="Москва"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Москва
@@ -196,16 +175,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Санкт-Петербурге"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12196.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12196.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12196.auto 2x
-                              "
-                              alt="Санкт-Петербург"
-                              title="Санкт-Петербург"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Санкт-Петербург
@@ -226,16 +201,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Сочи"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12193.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12193.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12193.auto 2x
-                              "
-                              alt="Сочи"
-                              title="Сочи"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Сочи
@@ -256,16 +227,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Адлере"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12096.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12096.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12096.auto 2x
-                              "
-                              alt="Адлер"
-                              title="Адлер"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Адлер
@@ -286,16 +253,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Ялте"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/6610.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/6610.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/6610.auto 2x
-                              "
-                              alt="Ялта"
-                              title="Ялта"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Ялта
@@ -316,16 +279,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Анталье"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/2702.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/2702.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/2702.auto 2x
-                              "
-                              alt="Анталья"
-                              title="Анталья"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Анталья
@@ -346,16 +305,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Стамбуле"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/2764.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/2764.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/2764.auto 2x
-                              "
-                              alt="Стамбул"
-                              title="Стамбул"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Стамбул
@@ -376,16 +331,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Дубае"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/25495.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/25495.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/25495.auto 2x
-                              "
-                              alt="Дубай"
-                              title="Дубай"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Дубай
@@ -406,14 +357,10 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Анапе"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12099.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12099.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12099.auto 2x
-                              "
+                              src={image}
                               alt="Анапа"
                               title="Анапа"
                             />
@@ -436,16 +383,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Казани"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12127.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12127.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12127.auto 2x
-                              "
-                              alt="Казань"
-                              title="Казань"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Казань
@@ -466,16 +409,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Геленджике"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12118.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12118.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12118.auto 2x
-                              "
-                              alt="Геленджик"
-                              title="Геленджик"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Геленджик
@@ -496,16 +435,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Калининграде"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12125.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12125.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12125.auto 2x
-                              "
-                              alt="Калининград"
-                              title="Калининград"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Калининград
@@ -526,16 +461,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Москве"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12153.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12153.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12153.auto 2x
-                              "
-                              alt="Москва"
-                              title="Москва"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Москва
@@ -556,16 +487,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Санкт-Петербурге"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12196.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12196.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12196.auto 2x
-                              "
-                              alt="Санкт-Петербург"
-                              title="Санкт-Петербург"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Санкт-Петербург
@@ -586,16 +513,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Сочи"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12193.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12193.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12193.auto 2x
-                              "
-                              alt="Сочи"
-                              title="Сочи"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Сочи
@@ -616,16 +539,12 @@ export default function MainPopularTowns() {
                             href="#"
                             title="Отели в Адлере"
                           >
-                            <img
+                            <Image
                               width="250"
                               height="190"
-                              src="./Бронирование отелей и гостиниц со скидкой до 60% на Hotellook_files/12096.auto"
-                              srcSet="
-                                //photo.hotellook.com/static/cities/250x190/12096.auto 1x,
-                                //photo.hotellook.com/static/cities/500x380/12096.auto 2x
-                              "
-                              alt="Адлер"
-                              title="Адлер"
+                              src={image}
+                              alt="Анапа"
+                              title="Анапа"
                             />
                             <span className="card-name-text">
                               Адлер
